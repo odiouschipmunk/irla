@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/content", (req, res) => {
-	var stream = fs.createReadStream("C:/Users/odiou/irla/success.pdf");
+	var stream = fs.createReadStream("success.pdf");
 	var filename = "success.pdf";
 
 	filename = encodeURIComponent(filename);
