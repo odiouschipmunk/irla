@@ -10,7 +10,7 @@ function listen() {
 //'C:/Users/odiou/irla/success.pdf'
 
 app.get("/", (req, res) => {
-    res.send('<html><h1>Dhruv\'s magazines:</h1><br><a href="/content">What is Success?</a></html>');
+    res.send('<html><h1>Dhruv\'s magazines:</h1><br><a href="/content"><img src="C:/Users/odiou/irla/front_rich.png"></a><br><a href="/content">What is Success?</a></html>');
 });
 
 app.get("/content", (req, res) => {
