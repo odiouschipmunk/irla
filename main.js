@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
 var server = app.listen(3000, listen);
-var fs = require("node:fs");
+var fs = require("fs");
 function listen() {
 	var host = server.address().address;
 	var port = server.address().port;
